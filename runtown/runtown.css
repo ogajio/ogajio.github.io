@@ -1,0 +1,142 @@
+/*=======LAYOUT SECTION===========*/
+
+body {
+    background-color: rgb(7, 83, 57);
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+#header {
+    background-color: antiquewhite;
+    height: 90px;
+    border-radius: 6px;
+    margin: 10px;
+}
+
+#navbar ul {
+    background-color:#000
+    list-style-type: none;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+#navbar ul li {
+    display: inline;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 2px 1px;
+    color: white;
+}
+#navbar ul li a:hover {
+    color: #000;
+    background-color: bisque;
+    cursor: pointer;
+}
+.main {
+    background-color: rgb(238, 234, 241);
+    margin-left: 10;
+    margin-right: 320px;
+    margin-top: 10px;
+    border-radius: 6px;
+    padding: 20px;
+    font-size: 110%;
+}
+
+
+.sidebar {
+    background-color: rgb(238, 234, 241);
+    margin-left: 10;
+    margin-right: 10px;
+    margin-top: 0px;
+    border-radius: 6px;
+    padding: 20px;
+    font-size: 105%;
+    float: right;
+    width: 260px;
+    clear: right;
+    margin-bottom: 10px;
+}
+.imagesidebar {
+    margin-left: 10;
+    margin-right: 10px;
+    margin-top: 0px;
+    border-radius: 6px;
+    float: right;
+    width: 300px;
+    clear: right;
+    margin-bottom: 10px;
+    opacity: 1.0;
+    transition: 1s;
+
+}
+.imagesidebar:hover {
+    opacity: 0.5;
+}
+
+#footer {
+
+    background-color: antiquewhite;
+    margin: 10px;
+    height: 60px;
+    border-radius: 6px;
+    clear: both;
+    text-align: center;
+    font-size: 90%;
+    
+
+}
+#footer ul {
+    padding: 3px; 
+    
+    
+}
+#footer ul li a:hover {
+color: white;
+background-color: #000;
+cursor: pointer;
+    
+}
+
+#footer ul li a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 1px;
+    color: #000
+    
+}
+
+#footer ul li {
+   display: inline;
+}
+
+/*============HEADINGS SECTION=============*/
+h1 {
+    font-size: 120%;
+    color: brown;
+}
+
+h2 {
+    color: darkblue;
+    font-size: 120%;
+}
+h3 {
+    font-size: 250%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(22, 155, 110);
+    text-align: center;
+   padding: 25px;
+
+
+
+}
+h3:hover {
+    color: rgb(179, 123, 232);
+    background-color: rgb(128, 234, 234);
+
+}
+
